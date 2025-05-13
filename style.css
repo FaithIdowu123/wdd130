@@ -1,5 +1,5 @@
 main {
-    width: 650px;
+    max-width: 650px;
 }
 h1 {
     color: #2ca85c;
