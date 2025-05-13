@@ -1,7 +1,19 @@
 main {
     width: 650px;
 }
+h1 {
+    color: #2ca85c;
+}
 
+nav {
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #2ca85c;
+}
 aside {
     width: 13rem;
     margin: 0.3rem;
@@ -22,9 +34,7 @@ main img {
     height: auto;
 }
 
-p {
-    padding: 0px;
-}
+p {padding: 0;}
 
 footer {
     margin-top: 20px;
