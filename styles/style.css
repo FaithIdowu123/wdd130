@@ -1,8 +1,12 @@
+:root {
+    --Nigeria-color1:#2ca85c; 
+    --Nigeria-color2:green;
+}
 main {
     max-width: 650px;
 }
 h1 {
-    color: #2ca85c;
+    color: var(--Nigeria-color1);
 }
 
 nav {
@@ -12,14 +16,14 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
-    background-color: #2ca85c;
+    background-color: var(--Nigeria-color1);
 }
 aside {
     width: 13rem;
     margin: 0.3rem;
     border: 1px solid rgb(0, 255, 0);
     padding: 10px;
-    background-color: green;
+    background-color: var(--Nigeria-color2);
     color: white;
     text-align: center;
 }
@@ -38,6 +42,6 @@ p {padding: 0;}
 
 footer {
     margin-top: 20px;
-    border-top: 2px solid green;
+    border-top: 2px solid var(--Nigeria-color2);
     text-align: center;
 }
