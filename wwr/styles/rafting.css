@@ -26,7 +26,9 @@ header, main, footer {
     margin: 0 auto;
     margin-bottom: 20px;
 }
-
+.main {
+    height: 1600px;
+}
 .header {
     text-align: center;
     display: grid;
@@ -79,7 +81,22 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
+.Hero {
+    position: relative;
+}
 
+.Hero img  {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.Hero p{
+    padding-top: 100px;
+}
+.map iframe{
+    width: 800px;
+    height: 500px;
+}
 h1 {
     position: absolute;
     top: 20px;
@@ -111,6 +128,19 @@ article {
     align-items: center;
     text-align: justify;
 }
+
+.Details-box {
+    text-align: center;
+}
+.Details {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--accent2-color);
+    color: #222222;
+    align-items: center;
+    text-align: justify;
+}
 .history img{
     width: 190px;
 }
@@ -134,18 +164,105 @@ article {
     grid-template-columns: 185px 185px 185px 185px 185px;
     margin-bottom: 20px;
 }
+
+.Employee-box {
+    margin: auto;
+}
+.Employee img {
+    height: 150px;
+    max-width: 250px;
+}
+
+.Employee{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-bottom: 20px;
+}
 figcaption {
     text-align: center;
 }
+.form {
+    margin-bottom: 60px;
+}
 
+form{
+    display: grid;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid var(--accent1-color);
+    border-radius: 0.5rem;
+    background-color: var(--accent2-color);
+    text-align: left;
+    color: black;
+    margin-bottom: 0px;
+}
+
+legend {
+    text-align: left;
+    margin-left: 10px;
+    color: blue;
+}
+label {
+    display:block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+input[type=email] {
+    margin-left: 26px;
+}
+.purpose label{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+.message {
+    text-align: center;
+}
+.message label{
+    margin-left: 8px;
+    color: blue;
+}
+textarea {
+    width: 300px;
+}
+
+.Subscription {
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type=checkbox] {
+    margin-left: 10px;
+}
+
+button {
+    width: 100px;
+    margin: 0 auto;
+    height: 30px;
+}
 footer {
     text-align: center;
+    margin-top: 10px;
 }
 .footer {
     margin-left: 180px;
+    margin-bottom: -40px;
     text-align: center;
     display: grid;
     grid-template-columns: 600px 200px;
+}
+
+footer a{
+    text-decoration: none;
 }
 
 
