@@ -96,6 +96,7 @@ nav, p, section, article {
 .map iframe{
     width: 800px;
     height: 500px;
+    border: 0;
 }
 h1 {
     position: absolute;
