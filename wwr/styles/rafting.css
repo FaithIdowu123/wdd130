@@ -308,11 +308,19 @@ input[type=checkbox] {
     padding: 5px;
     border-radius: 8px;
 }
+
+.newsletter button:hover, .form button:hover{
+    background-color: white;
+}
 .cta nav{
     margin-top: 10px;
     margin-bottom: -10px;
 }
-.cta nav a:hover{
+.cta nav a {
+    text-decoration: none;
+    color: #ffd700;
+}
+.cta a:hover{
     font-size: larger;
     color:#352f0c;
 }
