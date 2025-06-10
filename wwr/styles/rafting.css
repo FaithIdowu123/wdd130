@@ -54,6 +54,10 @@ header nav a {
     padding: 15px;
 }
 
+header nav a:hover{
+    background-color: #535151;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -71,6 +75,7 @@ nav, p, section, article {
 .social-icons a {
     text-decoration: none;
 }
+
 
 .hero {
     position: relative;
@@ -152,7 +157,7 @@ article {
     top: 50px;
 }
 
-.adventure-box {
+.adventure-box, .offerings-box {
     margin: auto;
 }
 .adventure img {
@@ -160,10 +165,22 @@ article {
     max-width: 150px;
 }
 
+.offerings img {
+    height: 200px;
+    width: 380px;
+}
+
 .adventure{
     margin-top: 20px;
     display: grid;
     grid-template-columns: 185px 185px 185px 185px 185px;
+    margin-bottom: 20px;
+}
+
+.offerings{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 450px 450px;
     margin-bottom: 20px;
 }
 
@@ -177,6 +194,17 @@ article {
 
 .Employee{
     margin-left: 10px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-bottom: 20px;
+}
+
+.trips img {
+    width: 250px;
+    height: 150px;
+}
+.trips {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -217,6 +245,27 @@ label {
 input[type=email] {
     margin-left: 26px;
 }
+.formcolumn1,.formcolumn2,.formcolumn3{
+    font-size: small;
+}
+
+.formcolumn1 {
+    margin-top: 10px;
+}
+.formcolumn1 input[type=text]{
+    margin-left: 5px;
+    border-radius: 8px;
+}
+
+.formcolumn2 input[type=email]{
+    margin-left: 31px;
+    border-radius: 8px;
+}
+
+.formcolumn2 input[type=tel]{
+    margin-left: 1px;
+    border-radius: 8px;
+}
 .purpose label{
     margin-bottom: 10px;
     margin-left: 40px;
@@ -235,6 +284,7 @@ input[type=radio] {
 }
 textarea {
     width: 300px;
+    border-radius: 8px;
 }
 
 .Subscription {
@@ -246,11 +296,50 @@ input[type=checkbox] {
     margin-left: 10px;
 }
 
-button {
+.form button {
     width: 100px;
     margin: 0 auto;
     height: 30px;
 }
+
+.newsletter button {
+    margin-left: 175px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.cta nav{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.cta nav a:hover{
+    font-size: larger;
+    color:#352f0c;
+}
+.trip-table {
+    text-align: center;
+    padding: 20px;
+}
+
+.trip-table table {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #222222;
+    
+}
+
+.trip-table th {
+    background-color: #005f73;
+    color: white;
+}
+
 footer {
     text-align: center;
     margin-top: 10px;
