@@ -5,6 +5,9 @@
     --accent2-color: #cccccc;
     --heading-font: "Open Sans", sans-serif;
     --body-font: "Roboto", sans-serif;
+    --black-color: black;
+    --white-color: white;
+    --common-color: #222222;
 }
 
 * {
@@ -47,10 +50,10 @@ header nav {
 header nav a {
     text-align: center;
     font-size: small;
-    color: black;
+    color: var(--black-color);
     text-decoration: none;
-    border: 1px solid black;
-    background-color: #fff;
+    border: 1px solid var(--black-color);
+    background-color: var(--white-color);
     padding: 15px;
 }
 
@@ -129,7 +132,7 @@ article {
     text-align: center;
     width: auto;
     background-color: var(--accent2-color);
-    color: #222222;
+    color: var(--common-color);
     
 }
 .history-box {
@@ -140,7 +143,7 @@ article {
     display: flex;
     flex-direction: row;
     background-color: var(--accent2-color);
-    color: #222222;
+    color: var(--common-color);
     align-items: center;
     text-align: justify;
 }
@@ -154,7 +157,7 @@ article {
     display: flex;
     flex-direction: column;
     background-color: var(--accent2-color);
-    color: #222222;
+    color: var(--common-color);
     align-items: center;
     text-align: justify;
 }
@@ -237,7 +240,7 @@ form{
     border-radius: 0.5rem;
     background-color: var(--accent2-color);
     text-align: left;
-    color: black;
+    color: var(--black-color);
     margin-bottom: 0px;
 }
 
@@ -320,7 +323,7 @@ input[type=checkbox] {
 }
 
 .newsletter button:hover, .form button:hover{
-    background-color: white;
+    background-color: var(--white-color);
 }
 .cta nav{
     margin-top: 10px;
@@ -328,7 +331,7 @@ input[type=checkbox] {
 }
 .cta nav a {
     text-decoration: none;
-    color: #ffd700;
+    color: var(--secondary-color);
 }
 .cta a:hover{
     font-size: larger;
@@ -347,15 +350,15 @@ input[type=checkbox] {
 }
 
 .trip-table th, .trip-table td {
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
     padding: 10px;
-    background-color: #222222;
+    background-color: var(--common-color);
     
 }
 
 .trip-table th {
     background-color: #005f73;
-    color: white;
+    color: var(--white-color);
 }
 
 footer {
