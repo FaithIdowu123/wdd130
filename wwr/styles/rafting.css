@@ -63,7 +63,7 @@ header nav a:hover{
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: black;
 }
 
 h2 {
@@ -247,7 +247,7 @@ form{
 legend {
     text-align: left;
     margin-left: 10px;
-    color: blue;
+    color: black;
 }
 label {
     display:block;
@@ -293,7 +293,7 @@ input[type=radio] {
 }
 .message label{
     margin-left: 8px;
-    color: blue;
+    color: black;
 }
 textarea {
     width: 300px;
